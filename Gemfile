@@ -13,6 +13,7 @@ gem 'sinatra-activerecord'
 
 group :development do
   gem 'sqlite3'
+  gem 'shotgun'
 end
 
 group :production do
