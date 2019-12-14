@@ -14,8 +14,13 @@ gem 'sinatra-activerecord'
 group :development do
   gem 'sqlite3'
   gem 'shotgun'
+  gem 'pry'
 end
 
 group :production do
   gem 'pg'
+end
+
+group :development, :production do
+  gem 'rake'
 end
